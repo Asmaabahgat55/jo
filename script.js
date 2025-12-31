@@ -1,6 +1,6 @@
 // Login
-const USERNAME = "test";
-const PASSWORD = "vxas123";
+const USERNAME = "open sesame";
+const PASSWORD = "0412";
 function login(){
     const name = document.getElementById("username").value.trim().toLowerCase();
     const pass = document.getElementById("password").value.trim();
@@ -91,5 +91,6 @@ function startHearts() {
 
 // بدء القلوب عند تحميل الصفحة
 window.addEventListener('DOMContentLoaded', startHearts);
+
 
 
